@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace WindowsFormsProject1
+namespace PostStringManipulation
 {
     public static class Boxbuilder
     {

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builder\Boxbuilder.cs" />
+    <Compile Include="StringHelpers.cs" />
     <Compile Include="FinalValueOfRepetitionsBoxController.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

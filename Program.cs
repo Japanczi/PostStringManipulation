@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsProject1
+namespace PostStringManipulation
 {
     internal static class Program
     {

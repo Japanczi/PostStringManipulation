@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsProject1
+namespace PostStringManipulation
 {
     public static class FinalValueOfRepetitionsBoxController
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsProject1.Properties {
+namespace PostStringManipulation.Properties {
     using System;
     
     
