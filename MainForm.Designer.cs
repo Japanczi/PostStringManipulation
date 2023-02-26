@@ -288,8 +288,8 @@
             this.postStringInput.Name = "postStringInput";
             this.postStringInput.Size = new System.Drawing.Size(355, 86);
             this.postStringInput.TabIndex = 15;
-            this.postStringInput.Text = "Example:\r\nhow=43&todo=&something=lol&test34=\r\n\r\nWork in progress:\r\n[{fooId=\"20230" +
-    "2,202301,202212,202211\"}, {barId=\"2YZ132,3Z4Y23\"}, {barId=\"2YZ132,3Z4Y23\"}]\r\n";
+            this.postStringInput.Text = "Example:\r\nhow=43&todo=&something=lol&test34=\r\n\r\n[{fooId=\"202302,202301,202212,202" +
+    "211\"}, {barId=\"2YZ132,3Z4Y23\"}, {barId=\"2YZ132,3Z4Y23\"}]\r\n";
             // 
             // Main
             // 

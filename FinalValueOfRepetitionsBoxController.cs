@@ -23,7 +23,7 @@ namespace PostStringManipulation
             if (!int.TryParse(main.RepeatAmountBox.Text, out int repeatValue))
                 value = 0;
 
-            value = startOnValue + (incrementValue * repeatValue) - 1;
+            value = startOnValue + (incrementValue * (repeatValue - 1));
             main.FinalValueOfRepetitionsBox.Text = value.ToString();
         }
 
