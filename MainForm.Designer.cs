@@ -39,7 +39,7 @@
             this.IncrementBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DateTokenManipulatorGroup = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.FinalValueofRepetitionsLabel = new System.Windows.Forms.Label();
             this.FinalValueOfRepetitionsBox = new System.Windows.Forms.TextBox();
             this.RepeatControl = new System.Windows.Forms.Label();
             this.RepeatAmountBox = new System.Windows.Forms.TextBox();
@@ -153,7 +153,7 @@
             // 
             // DateTokenManipulatorGroup
             // 
-            this.DateTokenManipulatorGroup.Controls.Add(this.label2);
+            this.DateTokenManipulatorGroup.Controls.Add(this.FinalValueofRepetitionsLabel);
             this.DateTokenManipulatorGroup.Controls.Add(this.FinalValueOfRepetitionsBox);
             this.DateTokenManipulatorGroup.Controls.Add(this.RepeatControl);
             this.DateTokenManipulatorGroup.Controls.Add(this.RepeatAmountBox);
@@ -175,14 +175,14 @@
             this.DateTokenManipulatorGroup.Text = "ReplaceIncrementGroup";
             this.DateTokenManipulatorGroup.Visible = false;
             // 
-            // label2
+            // FinalValueofRepetitionsLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(250, 303);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Will go up to:";
+            this.FinalValueofRepetitionsLabel.AutoSize = true;
+            this.FinalValueofRepetitionsLabel.Location = new System.Drawing.Point(250, 303);
+            this.FinalValueofRepetitionsLabel.Name = "FinalValueofRepetitionsLabel";
+            this.FinalValueofRepetitionsLabel.Size = new System.Drawing.Size(69, 13);
+            this.FinalValueofRepetitionsLabel.TabIndex = 12;
+            this.FinalValueofRepetitionsLabel.Text = "Will go up to:";
             // 
             // FinalValueOfRepetitionsBox
             // 
@@ -327,7 +327,7 @@
         public System.Windows.Forms.TextBox FinalValueOfRepetitionsBox;
         private System.Windows.Forms.Label RepeatControl;
         public System.Windows.Forms.TextBox RepeatAmountBox;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label FinalValueofRepetitionsLabel;
         private System.Windows.Forms.GroupBox postStringSeparatorGroup;
         private System.Windows.Forms.Button postStringVisibilitySwitch;
         private System.Windows.Forms.GroupBox postStringSeparatorMain;
